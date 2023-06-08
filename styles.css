@@ -1,0 +1,128 @@
+body {
+    background: rgb(241, 241, 245);
+    color: rgb(59, 58, 58);
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    background: gainsboro;
+}
+.text-class {
+    width: 400px;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 24px;
+    padding-block: 10px;
+    padding-inline: 30px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+.logo-img {
+    width: 300px;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.container {
+    margin-top: 100px;
+    
+}
+.black {
+    background: black;
+    height: 100px;
+}
+.red {
+    background: red;
+    height: 100px;
+}
+.white {
+    background: white;
+    height: 15px;
+}
+.green {
+    background: rgb(1, 114, 1);
+    height: 100px;
+}
+.flag-container {
+    position: relative;
+    width: 500px;
+    max-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.spear {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 200px;
+    height: 4px;
+    background: white;
+    transform-origin: center;
+  }
+  
+  .spear-1 {
+    transform: rotate(-60deg);
+  }
+  
+  .spear-2 {
+    transform: rotate(60deg);
+  }
+
+  .arrow-spear {
+    position: relative;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .arrow-head {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 30px solid #000;
+  }
+  
+  .tail {
+    position: absolute;
+    top: 30px; /* Adjust this value to control the separation between the arrow head and tail */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 160px; /* Adjust this value to control the length of the tail */
+    background-color: #000;
+  }
+   .btn {
+    color: #0f1419;
+    border: none;
+    border-radius: 20px;
+    background: #dfe1e5;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+   }
+   .collection {
+    display: flex;
+   }
+   .item {
+    text-align: center;
+    border:  1px solid black;
+    padding: 10px;
+    margin-block: 10px;
+   }
+   
+  
+  
+  
